@@ -1,0 +1,153 @@
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 77vh;
+    width: 60vw;
+    background: rgba(255,255,255,.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 15px;
+
+  
+  }
+
+  .input2{
+    
+    background-color: rgba(255,255,255,.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 1.3rem;
+    width: 45%;
+    height: 2.4rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: #3c354e;
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+    color: black;
+  
+  
+  }
+  .text-area{
+    
+    background-color: rgba(255,255,255,.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 1.3rem;
+  
+    
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: #3c354e;
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+    height: 40%;
+    width: 94.5%;
+    resize: none;
+  
+  
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    font-family: 'Righteous';
+    
+    font-size: 2rem ;
+
+  }
+
+  .hrstyle{
+    width: 75%;
+    height: .3rem;
+     /* background-color: #EB6440; */
+    opacity: 100;
+    border-radius: 1.5rem;
+    border: none;
+    
+    background: linear-gradient(to right,#FF7B54,#FFB100,#FFB100);
+   
+  }
+  .buttonContact{
+    /* width: 45%;
+    height: 2.5rem;
+    /* margin : 1rem 0 0 0; */
+    /* border-radius: 2rem;
+    font-size: 1rem; */
+    /* background-color: rgb(3, 0, 184); */
+    /* border: none;
+    outline: none; */
+    width: 40%;
+    height: 2.5rem;
+    margin : 1rem 0 1rem 0;
+    border-radius: 2rem;
+    font-size: 1.12rem;
+    color: aliceblue;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#FFB100,#FF7B54);
+    border: none;
+    outline: none;
+
+
+  }
+  @media(max-width: 994px){
+    
+    .input2{
+        width: 94.5%;
+      
+        margin: .3 0 .3 0;
+    }
+    .text-area{
+        height: 40%;
+
+    }
+    .contain{
+        margin-top: 14rem
+    }
+    .heading{
+        font-size: 2rem;
+        margin: 1rem 0 0 0;
+    }
+  }
+
+
+  @media(max-width: 795px){
+    .contain{
+        margin-top: 14rem;
+        height: 75vh;
+        width: 90vw;
+
+    }
+    .buttonContact{
+        height: 2rem;   
+    }
+    .input2{
+        height: 2rem;
+    }
+    .text-area{
+        height: 38%;
+
+    }
+    .heading{
+        font-size: 2rem;
+    }
+
+  }
+
+  @media(max-width: 400px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    .hrstyle{
+        height: .2rem;
+    }
+    .input2{
+        height: 1.8rem;
+    }
+    .buttonContact{
+      font-weight: 500;
+      width: 65%;
+    }
+
+  }

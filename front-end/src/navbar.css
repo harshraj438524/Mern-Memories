@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: aliceblue;
+    /* color:rgb(4, 255, 88); */
+    /* color: linear-gradient(to right,#FF7B54,#FFB100); */
+    font-family: 'Righteous', cursive;
+}
+.navbar{
+    background-image: linear-gradient(to right,#FF7B54,#FFB100);
+    /* background-color: #EB6440; */
+    z-index: 1;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
+@media(max-width: 994px){
+    .navbar{
+    background-image: linear-gradient(to right,#FF7B54,#FFB100);
+        
+        /* position: absolute;
+        z-index: 1; */
+        width: 100vw;
+    }
+}
+@media(max-width: 450px){
+    .nav-link{
+        font-size: .8rem;
+    }
+}

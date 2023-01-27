@@ -1,0 +1,118 @@
+/* .App {
+ 
+  background-image: url(/registration/src/back.jpg);
+    
+      height:100vh;
+      margin-top:-70px;
+      font-size:50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+} */
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+i{
+  cursor: pointer;
+}
+
+body{
+  margin: 0,0,0,0;
+  padding: 0,0,0,0;
+  box-sizing: border-box;
+  background:rgba(255,255,255,.5) url(/src/back.jpg) ;
+
+  background-size: cover ;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-blend-mode: darken;
+}
+.modal-body{
+  background: rgba(255,255,255,.3);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8.5px);
+}
+.modal{
+  background: rgba(255,255,255,.23);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(6.5px);
+  border-radius: 15px;
+
+}
+.modal-content{
+  /* background: rgba(255,255,255,.01); */
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8.5px);
+}
+
+
+.card{
+  border-radius: 15px;
+  /* background: rgba(255,255,255,.001);
+  backdrop-filter: blur(8.5px); */
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+.note{
+  font-size: 2.5rem;
+  color:black;
+}
+
+.containn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 70vh;
+  width: 100%;
+  background: rgba(255,255,255,.15);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8.5px);
+  border-radius: 15px;
+
+}
+/* 
+@media(max-width: 1000px){
+  .containn{
+    margin-top: rem;
+  }
+}
+@media(max-width: 750px){
+  .containn{
+    margin-top: 12rem;
+  }
+} */
+@media(max-width: 580px){
+  .containn{
+    /* margin-top: 35rem; */
+    height: 60vh;
+    width: 100%;
+    
+  }
+  .note{
+    font-size: 1.5rem;
+    color:black;
+  }
+}
+@media(max-width: 400px){
+  .containn{
+    /* margin-top: 40rem; */
+    height: 60vh;
+    width: 100%;
+  }
+  .note{
+    font-size: 1rem;
+    color:black;
+  }
+}
